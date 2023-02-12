@@ -20,7 +20,7 @@ export const bookStoreStyle = StyleSheet.create({
     },
 
     title: {
-        textAlign:'left',
+        textAlign: 'center',
         fontWeight:'bold',
         fontSize:18,
         margin:10,

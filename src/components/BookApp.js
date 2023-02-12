@@ -1,4 +1,11 @@
-import {View, Text, FlatList, TextInput, StyleSheet, ScrollView} from 'react-native';
+import {
+  View,
+  Text,
+  FlatList,
+  TextInput,
+  StyleSheet,
+  ScrollView,
+} from 'react-native';
 import React from 'react';
 import store_data from '../store_data.json';
 import BookStore from './BookStore/BookStore';
@@ -8,15 +15,16 @@ export default function BookApp() {
   return (
     <View>
       <ScrollView>
-        <Text style={styles.headerStyle}> Morvi Kitap Mağazası</Text>
+        <Text style={styles.headerStyle}>Book Store</Text>
         <Text style={[{fontSize: 18}, {color: 'black'}, {textAlign: 'center'}]}>
-          Hoş Geldiniz!
+          Welcome!
         </Text>
-        <TextInput  style={styles.search_input} placeholder="Ara" />
+        <TextInput style={styles.search_input} placeholder="Ara" />
         <FlatList
-         keyExtractor={(item) => item.u_id}
-         data={store_data} 
-         renderItem={renderBooks} />
+          keyExtractor={item => item.u_id}
+          data={store_data}
+          renderItem={renderBooks}
+        />
       </ScrollView>
     </View>
   );
