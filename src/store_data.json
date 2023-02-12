@@ -1,0 +1,42 @@
+[
+    {
+      "u_id": 0,
+      "author": "Stephen Hawking",
+      "title": "Zamanın Kısa Tarihi",
+      "price": "₺50",
+      "inStock": true,
+      "imageUrl": "https://i.dr.com.tr/cache/600x600-0/originals/0000000562120-1.jpg"
+    },
+    {
+      "u_id": 1,
+      "author": "Kip Throne",
+      "title": "Yıldızlararası Bilimi",
+      "price": "₺51",
+      "inStock": true,
+      "imageUrl": "https://img.kitapyurdu.com/v1/getImage/fn:10063157/wh:true/wi:220"
+    },
+    {
+      "u_id": 2,
+      "author": "Michel de Montaigne",
+      "title": "Denemeler / Montaigne",
+      "price": "₺52",
+      "inStock": false,
+      "imageUrl": "https://img.kitapyurdu.com/v1/getImage/fn:115307/wh:true/wi:220"
+    },
+    {
+      "u_id": 3,
+      "author": "Frank Herbert",
+      "title": "Dune",
+      "price": "₺53",
+      "inStock": true,
+      "imageUrl": "https://img.kitapyurdu.com/v1/getImage/fn:11494736/wh:true/wi:800"
+    },
+    {
+      "u_id": 4,
+      "author": "Douglas Adams",
+      "title": "Otostopçunun Galaksi Rehberi",
+      "price": "₺54",
+      "inStock": true,
+      "imageUrl": "https://img.kitapyurdu.com/v1/getImage/fn:11448257/wh:true/wi:220"
+    }
+  ]
